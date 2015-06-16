@@ -8,5 +8,7 @@ class Site {
   static hasMany = [ records : Record]
 
   static constraints = {
+    cr unique: true
+    name blank:false
   }
 }
