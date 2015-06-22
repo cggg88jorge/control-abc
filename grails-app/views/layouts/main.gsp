@@ -16,7 +16,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/controlAbc">Brand</a>
+            <a class="navbar-brand" href="/controlAbc">Control ABC</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -33,9 +33,9 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registros<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><g:link controller="record" action="create">Nuevo</g:link></li>
+                  <li><g:link controller="incidence" action="create">Nuevo</g:link></li>
                   <li role="separator" class="divider"></li>
-                  <li><g:link controller="record" action="index">Lista</g:link></li>
+                  <li><g:link controller="incidence" action="index">Lista</g:link></li>
                 </ul>
               </li>
             </ul>
