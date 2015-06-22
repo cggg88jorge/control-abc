@@ -2,10 +2,10 @@ package com.controlAbc
 
 enum TypeChange {
 
-  HIGH("record.high"),
-  LOW("record.low"),
-  CHANGE_SOFTWARE("record.change.software"),
-  CHANGE_HARDWARE("record.change.software"),
+  HIGH("Alta"),
+  LOW("Baja"),
+  CHANGE_SOFTWARE("Cambio de software"),
+  CHANGE_HARDWARE("Cambio de hardware"),
 
   private final String code
 
