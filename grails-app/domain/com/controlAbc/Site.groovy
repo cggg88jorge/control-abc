@@ -5,7 +5,7 @@ class Site {
   String cr
   String name
 
-  static hasMany = [ records : Record]
+  static hasMany = [ records : Incidence]
 
   static constraints = {
     cr unique: true
